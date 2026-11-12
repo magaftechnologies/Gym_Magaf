@@ -1,0 +1,5 @@
+- Keep gym display content in the typed central configuration so pages remain consistent when rebranded.
+- Public pages use individual TanStack routes and shared presentation sections, each with leaf head metadata.
+- Public demo enquiries validate locally and never call a server or persist personal data; retained legacy enquiry storage is not used by the showcase.
+- Hero 3D is dynamically imported behind ClientOnly with photograph fallback; offscreen, hidden-page and reduced-motion states suspend animation to preserve navigation and performance.
+- Shared reveal, comparison and gallery controls serve all public routes so interaction semantics and demo labels remain consistent.
